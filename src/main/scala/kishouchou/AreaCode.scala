@@ -1,3 +1,5 @@
+package kishouchou
+
 object AreaCode {
   case class Office(
       code: String,

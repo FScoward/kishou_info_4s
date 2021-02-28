@@ -1,3 +1,5 @@
+import kishouchou.{AreaCode, KishouInfoUrl}
+
 import io.Source
 
 @main def hello: Unit = {
@@ -9,7 +11,6 @@ import io.Source
 //    val pathCode = Source.fromURL("http://www.jma.go.jp/bosai/common/const/area.json")
   val res = Source.fromURL(KishouInfoUrl.forecast(AreaCode.Tokyo.code))
   println(res.mkString)
-  
 }
 
 def msg = "I was compiled by Scala 3. :)"
