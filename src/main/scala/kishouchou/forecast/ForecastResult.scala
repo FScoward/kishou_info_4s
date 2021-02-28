@@ -1,17 +1,17 @@
 package kishouchou.forecast
 
-case class Area(
+private[this] case class Area(
     name: String,
     code: String
 )
-case class Areas(
+private[this] case class Areas(
     area: Area,
     weatherCodes: List[String],
     weathers: List[String],
     winds: List[String],
     waves: List[String]
 )
-case class TimeSeries(
+private[this] case class TimeSeries(
     timeDefines: List[String],
     areas: List[Areas]
 )
