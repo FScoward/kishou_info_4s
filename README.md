@@ -1,3 +1,10 @@
+気象庁 API
+
+# 参考
+https://mindtech.jp/?p=1754
+
+
+---
 ## sbt project compiled with Scala 3
 
 ### Usage
